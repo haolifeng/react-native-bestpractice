@@ -67,8 +67,11 @@ react-native项目本身就是一个android项目，所以要使用android_studi
 安装步骤可以参考官方稳定。这里只是一些重要的实践
 ### 6.1 设置环境变量
 %ANDROID_HOME%\platform-tools
+
 %ANDROID_HOME%\emulator
+
 %ANDROID_HOME%\tools
+
 %ANDROID_HOME%\tools\bin
 
 ### 6.2 设置AVD目录
