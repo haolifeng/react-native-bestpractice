@@ -39,6 +39,12 @@ date 032208102015.20
 解压后，会生成Xcode.app，将Xcode.app移动到/Applactions/目录下，则可以在macos的启动器中看到Xcode。
 
 
+## 6 联机调试
+vmware使用usb2.0。
+
+linux也可以安装Vm,并破解安装macos,执行速度较快，但没有联机调试。因为linux的驱动不能很好的被vmware断开。
+
+
 
 
 
