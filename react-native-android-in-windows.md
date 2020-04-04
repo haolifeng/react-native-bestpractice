@@ -1,5 +1,5 @@
 # windows安装react-native环境
-建议使用windows10作为开发环境。
+建议使用windows10作为开发环境。特别说明，android模拟器只支持intel的芯片，不支持AMD的芯片。
 
 ## 1 jdk
 安装jdk1.8,设置JAVA_HOME环境变量，并将执行java添加到PATH中。
