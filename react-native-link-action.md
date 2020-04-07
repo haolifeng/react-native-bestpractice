@@ -53,4 +53,5 @@ public class MainApplication extends Application implements ReactApplication {
 
 ```
 ## ios
-iOS主要是将libRNWebView.a连接到库中，修改了project.pbxproj文件内容.(待续)
+iOS主要是将libRNWebView.a连接到库中，修改了project.pbxproj文件内容.
+![avatar](https://github.com/haolifeng/react-native-bestpractice/blob/master/picture/react-native-link-io-file-change.png)
