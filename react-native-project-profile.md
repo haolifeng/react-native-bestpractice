@@ -9,13 +9,13 @@ such as :
 react-native init firstProject --version 0.59.3
 ```
 ## 2 项目结构
-![avatar](https://github.com/haolifeng/react-native-bestpractice/picture/react-native-project-struct.png)
+![avatar](https://github.com/haolifeng/react-native-bestpractice/blob/master/picture/react-native-project-struct.png)
 
 react-native项目本身最终是android项目和iOS项目，android目录和ios目录分别包含android和ios的文件。
 
 ## 3 android目录结构
 
-![avatar](https://github.com/haolifeng/react-native-bestpractice/picture/react-native-android-catalog.png)
+![avatar](https://github.com/haolifeng/react-native-bestpractice/tree/master/picture/react-native-android-catalog.png)
 
 ## 3.1 MainApplication.java
 ```
@@ -116,7 +116,7 @@ public class MainActivity extends ReactActivity {
 
 ## 4 ios结构
 
-![avatar](https://github.com/haolifeng/react-native-bestpractice/picture/react-native-io-catalog.png)
+![avatar](https://github.com/haolifeng/react-native-bestpractice/blob/master/picture/react-native-io-catalog.png)
 
 ### 4.1 AppDelegate.h
 ```
@@ -182,4 +182,5 @@ int main(int argc, char * argv[]) {
   }
 }
 ```
+
 
