@@ -15,7 +15,7 @@ react-native项目本身最终是android项目和iOS项目，android目录和ios
 
 ## 3 android目录结构
 
-![avatar](https://github.com/haolifeng/react-native-bestpractice/tree/master/picture/react-native-android-catalog.png)
+![avatar](https://github.com/haolifeng/react-native-bestpractice/blob/master/picture/react-native-android-catalog.png)
 
 ## 3.1 MainApplication.java
 ```
