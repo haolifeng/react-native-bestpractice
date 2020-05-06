@@ -31,8 +31,8 @@ npm install yarn -g
 #### 设置alibab源
 
 ```
-npm config set registry https://registry.npm.taobao.org
-npm config set disturl https://npm.taobao.org/dist
+yarn config set registry https://registry.npm.taobao.org
+yarn config set disturl https://npm.taobao.org/dist
 ```
 该操作会在当前用户的目录下产生.yarnrc文件, 如果是Administor用户，则即c:\Users\Administrator\.yarnrc
 ```
@@ -94,6 +94,13 @@ react-native init project_name --version 0.59.3
 ### 7.2 使用aliyun的maven镜像
 
 将android/build.gradle中的jcenter()和google()分别替换为maven { url 'https://maven.aliyun.com/repository/jcenter' }和maven { url 'https://maven.aliyun.com/repository/google' }
+
+```
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/google' }
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/gradle-plugin' }
+```
 
 也可以不用替换，就是慢。
 
